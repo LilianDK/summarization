@@ -1,5 +1,5 @@
 # Install and or load packages - set variables ---------------------------------
-packages <- c("pdftools","reticulate","glue")
+packages <- c("pdftools","reticulate")
 
 installed_packages <- packages %in% rownames(installed.packages())
 if (any(installed_packages == FALSE)) {
@@ -9,22 +9,24 @@ if (any(installed_packages == FALSE)) {
 library(pdftools)
 library(reticulate)
 
-# Put the path to your python environment here 
-use_python("/Users/<<USERNAME>>/.pyenv/versions/3.11.4/bin/python") #   --------> PYTHON ENV SETZEN
+# Initialize virtual ENV for Python
+Sys.setenv(RETICULATE_PYTHON_ENV = "py_backend")
 
-py_install("aleph-alpha-client")
-py_install("Jinja2")
+version <- "3.11"
+virtualenv_create(python = virtualenv_starter(version))
+virtualenv_install(requirements = "requirements.txt")
 
 # Get your python file
 source_python("aa_summarization.py")
 
-token = ""                                                            # --------> TOKEN SETZEN
+token = "YOUR TOKEN"
 
 # Load PDF file and parse ------------------------------------------------------
 pdf_file = "Testfile.pdf"
 txt = pdf_text(pdf_file)
-document = txt[2] # select the page you want to summarize               --------> SEITE SETZEN
+document = txt[2] # select the page you want to summarize --------> SEITE SETZEN
 
 # Call Aleph Alpha API ---------------------------------------------------------
 summary = summary(token, document)
 summary
+
