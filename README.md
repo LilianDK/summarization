@@ -59,14 +59,16 @@ The complete text was used in this proceedure and therefore more content was sub
 
 I want to know the background or "what happened?" from the text:
 <img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/7ed4d156-906c-4e5a-a85b-e3ccd5e21b9b">
-<img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/8d08e8d4-a617-4803-82db-a437463e9cd9">
+![Picture 1](https://github.com/LilianDK/summarization/assets/13328959/52f00cdc-8d12-459b-a04d-2816d5164c0f)
+
 ```
-git clone https://github.com/LilianDK/llm-playground.git
+Die Klägerin fordert von der beklagten Krankenkasse die Erstattung von Kosten, die sie für die Behandlung einer Versicherten aufgewandt hat. Die Beklagte lehnt dies mit der Begründung ab, dass es sich um einen Arbeitsunfall handelte und die Klägerin nicht für die Behandlung zuständig war.
+
+Die Klägerin beantragt, das Urteil des Sozialgerichts Potsdam vom 28. September 2018 aufzuheben und die Beklagte zu verurteilen, ihr 10 263 Euro zu erstatten. Die Beklagte beantragt, die Revision der Klägerin zurückzuweisen. Die Klägerin habe weder einen Wegeunfall erlitten noch sei sie auf einem Betriebsweg verunglückt. Denn die im Unfallzeitpunkt ausgeübte Verrichtung habe nicht im inneren bzw sachlichen Zusammenhang mit der versicherten Tätigkeit gestanden."
 ```
 I also want to know what the impact is or "so what?" from the text:
-<img wi<svg width="2810" height="330" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden"><defs><image width="2540" height="292" 
+<img wi<svg width="2810" height="330" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden"><defs>
 ![Picture 1](https://github.com/LilianDK/summarization/assets/13328959/91ae01c7-4e88-450f-8a7f-6063bb15cc61)
-
 
 ```
 Die Klage ist begründet.
@@ -76,7 +78,11 @@ Aus welchem Grund? Die Beklagte ist zur Erstattung der gesamten Kosten verpflich
 
 Gemäß § 105 Abs. 1 SGB X ist der zuständige oder zuständig gewesene Leistungsträger dem anfänglich unzuständigen Leistungsträger erstattungspflichtig, der Sozialleistungen erbracht hat. 
 ```
-
+Remarks:
+- Seems to copy and paste text. Prompt configurations need to be set for penalties
+- Supreme seems to ask itself guidance questions
+- Difficult to enforce guidelines regarding length
+  
 # Reference to guidance on good summaries <a name="guidance"></a>
 
 **Example 1**
