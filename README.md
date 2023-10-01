@@ -1,5 +1,6 @@
 # Summarization with Chain of Density (CoD) technique
 
+## Scientific text
 **Summarization target:** Adams et al (2023), From sparse to dense: GPT-4 Summarization with Chain of Density Prompting, https://arxiv.org/pdf/2309.04269.pdf
 
 **Result using GPT-4-32k via Poe.com**
@@ -23,6 +24,7 @@ Remarks:
 **Result using Claude-2-100k via Poe.com**
 ![grafik](https://github.com/LilianDK/summarization/assets/13328959/f492103c-13a7-4ce7-aadf-83a094e2fec4)
 
+## Social court ruling
 **Summarization target:** Bundessozialgericht (30.03.2023), B 2 U 1/21 R, https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2023/2023_03_30_B_02_U_01_21_R.html
 
 **Result using GPT-4-0613 via OpenAI Playground**
