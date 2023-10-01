@@ -53,7 +53,7 @@ Remarks:
 
 **Summarization target:** Bundessozialgericht (30.03.2023), B 2 U 1/21 R, https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2023/2023_03_30_B_02_U_01_21_R.html
 
-**Result using Aleph Alpha Luminous and proposed processing of [Tham (2023), Summarize Podcast Transcripts and Long Texts Better with NLP and AI](https://towardsdatascience.com/summarize-podcast-transcripts-and-long-texts-better-with-nlp-and-ai-e04c89d3b2cb)**
+**Result using Aleph Alpha Luminous and proposed processing of [Tham (2023), Summarize Podcast Transcripts and Long Texts Better with NLP and AI](https://towardsdatascience.com/summarize-podcast-transcripts-and-long-texts-better-with-nlp-and-ai-e04c89d3b2cb) (or just part of it...)**
 
 The complete text was used in this proceedure and therefore more content was submitted as to abovementioned example. The underlying situation is a clerk who has to process insurance cases and need to look up certain rulings on that. Therefore, the summary might be more targeted regarding particular concepts.
 
