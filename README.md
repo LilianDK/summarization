@@ -47,7 +47,10 @@ Remarks:
 - Since the input text is larger than the maximum input allowed (8.191 Tokens) the input text has to be reduced and only the first part was submitted
 
 # Summarization with clustering technique <a name="cluster"></a>
+
 ## Social court ruling <a name="social_court_text_2"></a>
+
+**Summarization target:** Bundessozialgericht (30.03.2023), B 2 U 1/21 R, https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2023/2023_03_30_B_02_U_01_21_R.html
 
 **Result using Aleph Alpha Luminous and proposed processing of XXX**
 
