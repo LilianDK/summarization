@@ -1,6 +1,17 @@
-# Summarization with Chain of Density (CoD) technique
+## 📝 Table of Contents
+* [About](#about)
+* [Summarization with Chain of Density (CoD) technique](#cod)
+  * [Scientific text](#scientific_text)
+  * [Social court ruling](#social_court_text)
+* [Summarization with clustering technique ](#clustering)
 
-## Scientific text
+
+# About <a name="about"></a>
+To be written.
+
+# Summarization with Chain of Density (CoD) technique <a name="cod"></a>
+
+## Scientific text <a name="scientific_text"></a>
 **Summarization target:** Adams et al (2023), From sparse to dense: GPT-4 Summarization with Chain of Density Prompting, https://arxiv.org/pdf/2309.04269.pdf
 
 **Result using GPT-4-32k via Poe.com**
@@ -24,7 +35,7 @@ Remarks:
 **Result using Claude-2-100k via Poe.com**
 ![grafik](https://github.com/LilianDK/summarization/assets/13328959/f492103c-13a7-4ce7-aadf-83a094e2fec4)
 
-## Social court ruling
+## Social court ruling <a name="social_court_text"></a>
 **Summarization target:** Bundessozialgericht (30.03.2023), B 2 U 1/21 R, https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2023/2023_03_30_B_02_U_01_21_R.html
 
 **Result using GPT-4-0613 via OpenAI Playground**
@@ -34,6 +45,8 @@ The 32k version is not available on the Open AI Playground on the time of testin
 
 Remarks:
 - Since the input text is larger than the maximum input allowed (8.191 Tokens) the input text has to be reduced and only the first part was submitted
+
+# Summarization with clustering technique <a name="cluster"></a>
 
 **Result using Aleph Alpha Luminous and proposed processing of XXX**
 I want to know the background
