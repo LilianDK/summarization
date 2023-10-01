@@ -55,7 +55,7 @@ Remarks:
 
 **Result using Aleph Alpha Luminous and proposed processing of XXX**
 
-The complete text was used in this proceedure and therefore more content was submitted as to abovementioned example.
+The complete text was used in this proceedure and therefore more content was submitted as to abovementioned example. The underlying situation is a clerk who has to process insurance cases and need to look up certain rulings on that. Therefore, the summary might be more targeted regarding particular concepts.
 
 I want to know the background or "what happened?" from the text:
 <img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/7ed4d156-906c-4e5a-a85b-e3ccd5e21b9b">
