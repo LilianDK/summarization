@@ -54,10 +54,17 @@ Remarks:
 
 **Result using Aleph Alpha Luminous and proposed processing of XXX**
 
+The complete text was used in this proceedure and therefore more content was submitted as to abovementioned example.
+
 I want to know the background
 <img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/7ed4d156-906c-4e5a-a85b-e3ccd5e21b9b">
 <img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/8d08e8d4-a617-4803-82db-a437463e9cd9">
 
 <img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/fd7f0b03-bbed-491e-8172-2be937f4716e">
-<img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/5518d870-5a5a-4e51-b910-7c2067823c8a">
+
+# Reference to guidance on good summaries <a name="guidance"></a>
+
+
+![grafik](https://github.com/LilianDK/summarization/assets/13328959/45669c3d-dec0-4ccc-bef7-2cf422633560)
+Source: https://www.emerald.com/insight/content/doi/10.1108/INTR-08-2021-0600/full/html
 
