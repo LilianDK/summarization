@@ -67,7 +67,7 @@ Die Klägerin fordert von der beklagten Krankenkasse die Erstattung von Kosten, 
 Die Klägerin beantragt, das Urteil des Sozialgerichts Potsdam vom 28. September 2018 aufzuheben und die Beklagte zu verurteilen, ihr 10 263 Euro zu erstatten. Die Beklagte beantragt, die Revision der Klägerin zurückzuweisen. Die Klägerin habe weder einen Wegeunfall erlitten noch sei sie auf einem Betriebsweg verunglückt. Denn die im Unfallzeitpunkt ausgeübte Verrichtung habe nicht im inneren bzw sachlichen Zusammenhang mit der versicherten Tätigkeit gestanden.
 ```
 I also want to know what the impact is or "so what?" from the text:
-<img wi<svg width="2810" height="330" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden"><defs>
+<svg width="2810" height="330" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden"><defs>
 ![Picture 1](https://github.com/LilianDK/summarization/assets/13328959/91ae01c7-4e88-450f-8a7f-6063bb15cc61)
 
 ```
