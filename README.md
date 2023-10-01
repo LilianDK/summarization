@@ -4,7 +4,7 @@
   * [Scientific text](#scientific_text)
   * [Social court ruling](#social_court_text)
 * [Summarization with clustering technique](#clustering)
- * [Social court ruling](#social_court_text_2)
+  * [Social court ruling](#social_court_text_2)
 * [Reference to guidance on good summaries](#guidance)
   
 # About <a name="about"></a>
