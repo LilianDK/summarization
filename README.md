@@ -10,7 +10,7 @@
 # About <a name="about"></a>
 To be written.
 
-# Summarization with Chain of Density (CoD) technique <a name="cod"></a>
+# Summarization with Chain of Density (CoD) technique according to Adams et al (2023), https://arxiv.org/pdf/2309.04269.pdf <a name="cod"></a>
 
 ## Scientific text <a name="scientific_text"></a>
 **Summarization target:** Adams et al (2023), From sparse to dense: GPT-4 Summarization with Chain of Density Prompting, https://arxiv.org/pdf/2309.04269.pdf
