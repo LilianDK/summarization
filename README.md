@@ -5,6 +5,8 @@
 **Result using GPT-4-32k via Poe.com**
 ![grafik](https://github.com/LilianDK/summarization/assets/13328959/47c31130-04e1-4ddd-8e4e-9bb72a679af1)
 
+- Inconsistent
+
 **Result using GPT-4-0613 via OpenAI Playground**
 ![grafik](https://github.com/LilianDK/summarization/assets/13328959/ae5f79d3-cc63-4d87-a07f-6858c75c404a)
 
