@@ -3,9 +3,10 @@
 * [Summarization with Chain of Density (CoD) technique](#cod)
   * [Scientific text](#scientific_text)
   * [Social court ruling](#social_court_text)
-* [Summarization with clustering technique ](#clustering)
+* [Summarization with clustering technique](#clustering)
  * [Social court ruling](#social_court_text_2)
-
+* [Reference to guidance on good summaries](#guidance)
+  
 # About <a name="about"></a>
 To be written.
 
