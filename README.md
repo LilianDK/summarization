@@ -60,10 +60,21 @@ The complete text was used in this proceedure and therefore more content was sub
 I want to know the background or "what happened?" from the text:
 <img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/7ed4d156-906c-4e5a-a85b-e3ccd5e21b9b">
 <img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/8d08e8d4-a617-4803-82db-a437463e9cd9">
-
+```
+git clone https://github.com/LilianDK/llm-playground.git
+```
 I also want to know what the impact is or "so what?" from the text:
 <img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/fd7f0b03-bbed-491e-8172-2be937f4716e">
-<img width="1270" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/c388806b-e513-41ba-b9d0-35cb65ffa53d">
+![grafik](https://github.com/LilianDK/summarization/assets/13328959/edb2e335-a730-4731-aefb-cab5b1f15d4d)
+
+```
+Die Klage ist begründet.
+
+Was wird entschieden? Die Klägerin hat einen Anspruch auf Erstattung der Leistungen der gesetzlichen Krankenversicherung.
+Aus welchem Grund? Die Beklagte ist zur Erstattung der gesamten Kosten verpflichtet, da die Klägerin keinen Anspruch auf Leistungen aus der gesetzlichen Krankenversicherung hat, weil die Krankenbehandlung sowie das Krankengeld als Folge eines Arbeitsunfalls zu erbringen sind. Die Ablehnung von Sozialleistungen durch die Beklagte gegenüber der Beigeladenen im Sozialleistungsverhältnis steht dem nicht entgegen. Die Rechtsgrundlage für den Erstattungsanspruch ist § 105 Abs. 1 SGB X.
+
+Gemäß § 105 Abs. 1 SGB X ist der zuständige oder zuständig gewesene Leistungsträger dem anfänglich unzuständigen Leistungsträger erstattungspflichtig, der Sozialleistungen erbracht hat. 
+```
 
 # Reference to guidance on good summaries <a name="guidance"></a>
 
