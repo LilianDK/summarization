@@ -5,6 +5,9 @@
 **Result using GPT-4-32k via Poe.com**
 ![grafik](https://github.com/LilianDK/summarization/assets/13328959/47c31130-04e1-4ddd-8e4e-9bb72a679af1)
 
+**Result using GPT-4-0613 via OpenAI Playground**
+![grafik](https://github.com/LilianDK/summarization/assets/13328959/ae5f79d3-cc63-4d87-a07f-6858c75c404a)
 
 **Result using Claude-2-100k via Poe.com**
-![grafik](https://github.com/LilianDK/summarization/assets/13328959/754e4ab4-404b-4884-a817-3fff7b863466)
+![grafik](https://github.com/LilianDK/summarization/assets/13328959/f492103c-13a7-4ce7-aadf-83a094e2fec4)
+
