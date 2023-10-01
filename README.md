@@ -57,7 +57,7 @@ Remarks:
 
 The complete text was used in this proceedure and therefore more content was submitted as to abovementioned example.
 
-I want to know the background
+I want to know the background or "what happened" from the text:
 <img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/7ed4d156-906c-4e5a-a85b-e3ccd5e21b9b">
 <img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/8d08e8d4-a617-4803-82db-a437463e9cd9">
 
