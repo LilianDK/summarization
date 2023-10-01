@@ -71,3 +71,7 @@ Source: https://www.emerald.com/insight/content/doi/10.1108/INTR-08-2021-0600/fu
 **Example 2**
 <img width="793" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/67099209-62ff-4231-ad1b-c293cb542838">
 Source: https://humanfactors.jmir.org/author-information/instructions-for-authors
+
+**Example 3**
+![grafik](https://github.com/LilianDK/summarization/assets/13328959/f39f4b06-5dc0-4287-92ef-83a11b399f30)
+Source: https://www.elsevier.com/journals/international-journal-of-information-management/0268-4012/guide-for-authors
