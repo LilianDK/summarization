@@ -4,7 +4,7 @@
   * [Scientific text](#scientific_text)
   * [Social court ruling](#social_court_text)
 * [Summarization with clustering technique ](#clustering)
-
+ * [Social court ruling](#social_court_text_2)
 
 # About <a name="about"></a>
 To be written.
@@ -47,8 +47,10 @@ Remarks:
 - Since the input text is larger than the maximum input allowed (8.191 Tokens) the input text has to be reduced and only the first part was submitted
 
 # Summarization with clustering technique <a name="cluster"></a>
+## Social court ruling <a name="social_court_text_2"></a>
 
 **Result using Aleph Alpha Luminous and proposed processing of XXX**
+
 I want to know the background
 <img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/7ed4d156-906c-4e5a-a85b-e3ccd5e21b9b">
 <img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/8d08e8d4-a617-4803-82db-a437463e9cd9">
