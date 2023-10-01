@@ -33,4 +33,7 @@ Remarks:
 The 32k version is not available on the Open AI Playground on the time of testing 01.10.23.
 
 Remarks:
-- XXX
+- Since the input text is larger than the maximum input allowed (8.191 Tokens) the input text has to be reduced and only the first part was submitted
+
+**Result using Aleph Alpha Luminous and proposed processing of XXX**
+<img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/7ed4d156-906c-4e5a-a85b-e3ccd5e21b9b">
