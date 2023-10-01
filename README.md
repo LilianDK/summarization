@@ -59,12 +59,12 @@ The complete text was used in this proceedure and therefore more content was sub
 
 I want to know the background or "what happened?" from the text:
 <img width="1273" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/7ed4d156-906c-4e5a-a85b-e3ccd5e21b9b">
-![Picture 1](https://github.com/LilianDK/summarization/assets/13328959/52f00cdc-8d12-459b-a04d-2816d5164c0f)
+![Picture 1](https://github.com/LilianDK/summarization/assets/13328959/49f50316-3b75-42ae-96fd-cf4d9c58d78a)
 
 ```
 Die Klägerin fordert von der beklagten Krankenkasse die Erstattung von Kosten, die sie für die Behandlung einer Versicherten aufgewandt hat. Die Beklagte lehnt dies mit der Begründung ab, dass es sich um einen Arbeitsunfall handelte und die Klägerin nicht für die Behandlung zuständig war.
 
-Die Klägerin beantragt, das Urteil des Sozialgerichts Potsdam vom 28. September 2018 aufzuheben und die Beklagte zu verurteilen, ihr 10 263 Euro zu erstatten. Die Beklagte beantragt, die Revision der Klägerin zurückzuweisen. Die Klägerin habe weder einen Wegeunfall erlitten noch sei sie auf einem Betriebsweg verunglückt. Denn die im Unfallzeitpunkt ausgeübte Verrichtung habe nicht im inneren bzw sachlichen Zusammenhang mit der versicherten Tätigkeit gestanden."
+Die Klägerin beantragt, das Urteil des Sozialgerichts Potsdam vom 28. September 2018 aufzuheben und die Beklagte zu verurteilen, ihr 10 263 Euro zu erstatten. Die Beklagte beantragt, die Revision der Klägerin zurückzuweisen. Die Klägerin habe weder einen Wegeunfall erlitten noch sei sie auf einem Betriebsweg verunglückt. Denn die im Unfallzeitpunkt ausgeübte Verrichtung habe nicht im inneren bzw sachlichen Zusammenhang mit der versicherten Tätigkeit gestanden.
 ```
 I also want to know what the impact is or "so what?" from the text:
 <img wi<svg width="2810" height="330" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden"><defs>
