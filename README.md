@@ -64,7 +64,10 @@ I want to know the background
 
 # Reference to guidance on good summaries <a name="guidance"></a>
 
-
+**Example 1**
 ![grafik](https://github.com/LilianDK/summarization/assets/13328959/45669c3d-dec0-4ccc-bef7-2cf422633560)
 Source: https://www.emerald.com/insight/content/doi/10.1108/INTR-08-2021-0600/full/html
 
+**Example 2**
+<img width="793" alt="grafik" src="https://github.com/LilianDK/summarization/assets/13328959/67099209-62ff-4231-ad1b-c293cb542838">
+Source: https://humanfactors.jmir.org/author-information/instructions-for-authors
