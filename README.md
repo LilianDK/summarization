@@ -6,7 +6,8 @@
 * [Summarization with clustering technique](#clustering)
   * [Social court ruling](#social_court_text_2)
 * [Reference to guidance on good summaries](#guidance)
-  
+* [Literature](#literature)
+    
 # About <a name="about"></a>
 To be written.
 
@@ -96,3 +97,8 @@ Source: https://humanfactors.jmir.org/author-information/instructions-for-author
 **Example 3**
 ![grafik](https://github.com/LilianDK/summarization/assets/13328959/f39f4b06-5dc0-4287-92ef-83a11b399f30)
 Source: https://www.elsevier.com/journals/international-journal-of-information-management/0268-4012/guide-for-authors
+
+# Literature <a name="literature"></a>
+- Adams, G., Fabbri, A., Ladhak, F., Lehman, E. and Elhadad, N., 2023. From Sparse to Dense: GPT-4 Summarization with Chain of Density Prompting. arXiv preprint arXiv:2309.04269; https://arxiv.org/abs/2309.04269
+- Stiennon, N., Ouyang, L., Wu, J., Ziegler, D., Lowe, R., Voss, C., Radford, A., Amodei, D. and Christiano, P.F., 2020. Learning to summarize with human feedback. Advances in Neural Information Processing Systems, 33, pp.3008-3021; https://arxiv.org/abs/2009.01325
+- Liu, N.F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F. and Liang, P., 2023. Lost in the middle: How language models use long contexts. arXiv preprint arXiv:2307.03172; https://arxiv.org/abs/2307.03172
