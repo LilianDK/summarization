@@ -15,6 +15,7 @@ Sys.setenv(RETICULATE_PYTHON_ENV = "py_backend")
 version <- "3.11"
 virtualenv_create(python = virtualenv_starter(version))
 virtualenv_install(requirements = "requirements.txt")
+use_virtualenv("py_backend")
 
 # Get your python file
 source_python("aa_summarization.py")
