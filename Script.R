@@ -11,6 +11,8 @@ library(reticulate)
 library(TheOpenAIR)
 library(ds4psy)
 library(glue)
+library(factoextra)
+
 # Initialize virtual ENV for Python
 Sys.setenv(RETICULATE_PYTHON_ENV = "py_backend")
 
@@ -20,6 +22,7 @@ virtualenv_install(requirements = "requirements.txt")
 use_virtualenv("py_backend")
 
 # Get your python file
+source_python("aa_tokenizer.py")
 source_python("aa_summarization.py")
 source_python("aa_embedding.py")
 
@@ -32,10 +35,10 @@ token = ""
 ################################################################################
 # Load PDF file and parse ------------------------------------------------------
 txt = pdf_text(inputpath)
-document = txt[2] # select the page you want to summarize --------> SEITE SETZEN
-maximum_tokens = 170
+document = txt[2] # select the page you want to summarize 
 
 # Call Aleph Alpha API ---------------------------------------------------------
+maximum_tokens = 170
 summary = summary(token, document, as.integer(maximum_tokens))
 summary
 
@@ -43,12 +46,12 @@ summary
 # Long text summarization
 ################################################################################
 # Load PDF file and parse ------------------------------------------------------
-# This step can be optimized by checking better OCR parsing libraries or adding priori procedures
+# This step can be optimized by checking better OCR parsing libraries or adding procedures beforehand
 txt = pdf_text(inputpath)
 
 maximum_tokens = 74
 
-# processing of PDF file
+# processing of PDF file to text
 stringtosum = ""
 for (x in 1:length(txt)) {
   stringtosum = paste(stringtosum, txt[x], sep = " ", collapse = " ")
@@ -56,16 +59,16 @@ for (x in 1:length(txt)) {
 
 sumtokeninput = count_tokens(stringtosum)
 
-dft = data.frame(page="",
-                 tokens=""
-)
+# count tokens per page and total
+dft = data.frame(page="", tokens="")
 x = 1
 for (x in 1:length(txt)) {
-  tokens = count_tokens(txt[x])
+  string = gsub("[\r\n]", "", txt[i]) # remove new lines
+  #tokens = aa_tokenizer(token, string)
+  tokens = count_tokens(string) 
   tupel = as.integer(c(x, tokens))
   dft = rbind(dft, tupel)
 } 
-
 dft = dft[-1,]
 
 dft$tokens <- as.integer(dft$tokens)  
@@ -77,6 +80,7 @@ string = gsub("[\r\n]", "", string) # remove new lines
 
 dftext = text_to_sentences(string, split_delim = "\\.")  # only split at "."
 dftext = as.data.frame(dftext)
+colnames(dftext) = "chunks"
 
 chunksize = 5
 overlap = 1
@@ -100,17 +104,17 @@ colnames(df) <- c("Text_chunk")
 
 text_chunks = as.list(df[,1]) 
 
-# Clustering algorithm ---------------------------------------------------------
 vectors = embedding(token, text_chunks) 
 vectors
 vectors = matrix(unlist(vectors), ncol = 5120, byrow = TRUE)
 
-#fviz_nbclust(vectors, kmeans, method = "wss") +
-#  geom_vline(xintercept = "", linetype = 2)
+fviz_nbclust(vectors, kmeans, method = "silhouette") +
+  geom_vline(xintercept = "", linetype = 2)
 
-# Create summary per chunk ----------------------------------------------------- 
+# Clustering algorithm ---------------------------------------------------------
+# Presummary -------------------------------------------------------------------
 set.seed(123)
-groupsize = 5
+groupsize = 2
 km.res <- kmeans(vectors, groupsize, nstart = 25)
 
 df2 <- cbind(df, cluster = km.res$cluster) 
@@ -152,10 +156,9 @@ for (x in 1:groupsize) {
   clustersummarydf = rbind(clustersummarydf, document)
 }  
 colnames(clustersummarydf) <- c("Clustersummary")
-clustersummarydf[3,1]
 
 finalsummarydf = data.frame(matrix(nrow = 0, ncol = 0))
-maximum_tokens = 124
+maximum_tokens = 350
 for (x in 1:nrow(clustersummarydf)) {
   document = clustersummarydf[x,1]
   source_python("aa_summarization.py")
@@ -164,25 +167,25 @@ for (x in 1:nrow(clustersummarydf)) {
   finalsummarydf = rbind(finalsummarydf, summary)
 }
 colnames(finalsummarydf) <- c("Finalsummary")
-finalsummarydf[5,1]
+finalsummarydf[1,1]
 
 # Guided summary ---------------------------------------------------------------
 document = ""
 stringtosum = ""
-for (x in 1:nrow(finalsummarydf)) {
-  stringtosum = paste(stringtosum, finalsummarydf[x,1], sep = " ", collapse = " ")
+for (x in 1:nrow(clustersummarydf)) {
+  stringtosum = paste(stringtosum, clustersummarydf[x,1], sep = " ", collapse = " ")
   document = stringtosum
 }        
 
-maximum_tokens = 170
+maximum_tokens = 350
 
 question1 = "Was ist der Hintergrund?"
 source_python("aa_summarization_guided.py")
-background = summaryguided(token, document, question, as.integer(maximum_tokens))
+background = summaryguided(token, document, question1, as.integer(maximum_tokens))
 background  
   
 question2 = "Ist das Urteil aus Sicht der Krankenkasse für die Abrechnungsprüfung relevant? Ist der Rechnungsbetrag zu kürzen? Wenn ja, aus welchem Grund?"
-resolution = summaryguided(token, document, question, as.integer(maximum_tokens))
+resolution = summaryguided(token, document, question2, as.integer(maximum_tokens))
 resolution
   
 guidedsummary = data.frame(matrix(nrow = 0, ncol = 3))
